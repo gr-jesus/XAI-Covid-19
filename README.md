@@ -10,15 +10,23 @@ This is the code of the paper "Removing Zero-Variance Units of Deep Models for C
 
 The classes of the dataset need to be saved one per folder:
 
-KAGGLE_V3
- 
- ||==>COVID_19
- 
- ||==>Lung_Opacity
- 
- ||==>Normal
- 
- ||==>Viral_Penumonia
+
+```
+project
+| model_compression.py
+| xai.py
+|
+└--KAGGLE_V3
+|   └-- COVID-19
+|   └-- Lung_Opacity
+|   └-- Normal
+|   └-- Viral_Pneumonia
+└--KAGGLE_V1
+   └--COVID-19
+   └--Normal
+   └--Viral_Pneumonia
+   ...
+ ```
  
  ---
  For both tasks we receive two arguments:
