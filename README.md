@@ -38,7 +38,7 @@ project
  ---
  Citation:
  <pre>
- @article{lowe2017multi,
+ @article{garcia2017removing,
   title={Removing Zero-Variance Units of Deep Models for COVID-19 Detection},
   author={García-Ramírez, Jesús and Escalante Ramírez, Boris and Olveres Montiel, Jimena},
   journal={Pre-print},
